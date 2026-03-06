@@ -1,0 +1,73 @@
+[
+  {
+    "task": "next_day_pnl_bucket",
+    "n_rows": 2308,
+    "split": "date_holdout_80_20",
+    "metrics": {
+      "classification_report": {
+        "high": {
+          "precision": 0.5492227979274611,
+          "recall": 0.2566585956416465,
+          "f1-score": 0.34983498349834985,
+          "support": 413.0
+        },
+        "loss/low": {
+          "precision": 0.40286298568507156,
+          "recall": 0.5038363171355499,
+          "f1-score": 0.44772727272727275,
+          "support": 391.0
+        },
+        "mid": {
+          "precision": 0.42448979591836733,
+          "recall": 0.5652173913043478,
+          "f1-score": 0.48484848484848486,
+          "support": 368.0
+        },
+        "accuracy": 0.43600682593856654,
+        "macro avg": {
+          "precision": 0.4588585265103,
+          "recall": 0.4419041013605147,
+          "f1-score": 0.4274702470247025,
+          "support": 1172.0
+        },
+        "weighted avg": {
+          "precision": 0.46122925584032737,
+          "recall": 0.43600682593856654,
+          "f1-score": 0.42488690635275134,
+          "support": 1172.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          106,
+          170,
+          137
+        ],
+        [
+          49,
+          197,
+          145
+        ],
+        [
+          38,
+          122,
+          208
+        ]
+      ],
+      "labels": [
+        "high",
+        "loss/low",
+        "mid"
+      ]
+    }
+  },
+  {
+    "task": "next_day_abs_pnl_log1p",
+    "n_rows": 2308,
+    "split": "date_holdout_80_20",
+    "metrics": {
+      "MAE": 2.5789998091491437,
+      "R2": -0.1287204257147636
+    }
+  }
+]
