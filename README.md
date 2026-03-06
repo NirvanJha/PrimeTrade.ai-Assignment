@@ -1,5 +1,4 @@
 
-md
 # Trader Performance vs Market Sentiment
 
 A data-driven analysis exploring how market sentiment influences trader behavior, profitability, and risk exposure.
@@ -89,7 +88,7 @@ Markets experiencing strong negative sentiment exhibit:
 Average profit per trader:
 Fear regime ≈ $2,790 Greed regime ≈ $2,108
 
-Code
+
 
 This suggests volatile market conditions create more opportunities for profitable trades.
 
@@ -98,7 +97,7 @@ This suggests volatile market conditions create more opportunities for profitabl
 Upper tail position sizes:
 Fear regime ≈ 9.1e5 Greed regime ≈ 3.6e5
 
-Code
+
 
 Traders appear to increase exposure during periods of high volatility.
 
@@ -115,7 +114,7 @@ Three distinct trader profiles emerged:
 Drawdown comparison:
 High position traders ≈ -$83,800 Low position traders ≈ -$7,900
 
-Code
+
 
 ## Strategy Insights
 
@@ -133,11 +132,6 @@ The results suggest that sentiment-aware trading strategies may improve performa
 
 Combining market sentiment signals with trader segmentation can improve risk-adjusted performance.
 
-## Project Structure
-
-trader-sentiment-analysis/ ├── data/ │ ├── historical_data.csv │ └── fear_greed_index.csv ├── notebooks/ │ └── Sentiment_Analysis.ipynb ├── reports/ │ ├── chart1_pnl_per_trader_box.png │ ├── chart2_behavior_bars.png │ └── chart3_segment_frequency_pnl.png └── README.md
-
-Code
 
 ## Technologies Used
 
